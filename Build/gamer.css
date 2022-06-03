@@ -1,0 +1,95 @@
+h1{
+
+    color: greenyellow;
+    bottom: 550px;
+    position: absolute;
+    left: 600px;
+    font-size: 75;
+    text-align: center;
+
+}
+p{
+    color: blueviolet;
+    bottom: 100px;
+    position: absolute;
+    left: 575px;
+    font-size: 75;
+    text-align: center;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.box{
+    width: 400;
+    height: 400;
+    border: 5px solid black;
+    margin: 20px auto;
+    transform: translate(-5%, 0);
+    
+    
+}
+
+body {
+    background-color:aliceblue;
+    
+        height: 100%;
+        overflow-y: hidden;
+     
+    }
+
+.box1{
+    width: 200;
+    height: 200;
+    border: 5px solid red;
+    margin: 5px auto;
+    transform: translate(5%, 0);
+    background-color: red;
+    position: relative;
+    bottom: 425px;
+    right: 127px;
+}
+
+.box2{
+    width: 190;
+    height: 200;
+    border: 5px solid green;
+    margin: 5px auto;
+    transform: translate(-5%, 0);
+    background-color: green;
+    position: relative;
+    bottom: 640px;
+    left: 90px;
+}   
+
+.box3{
+    width: 200;
+    height: 181;
+    border: 5px solid blue;
+    margin: 5px auto;
+    transform: translate(5%, 0);
+    background-color: blue;
+    position: relative;
+    bottom: 645px;
+    right: 127px;
+}
+
+.box4{
+    width: 190;
+    height: 181;
+    border: 5px solid orange;
+    margin: 5px auto;
+    transform: translate(-5%, 0);
+    background-color: orange;
+    position: relative;
+    bottom: 841px;
+    left: 90px;
+}
+
+.Tux{
+    position: absolute;
+    bottom: 375px;
+    left: 665px;
+    scale: 500px, 500px;
+}
